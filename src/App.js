@@ -4,7 +4,7 @@ function App() {
     return (
     <div>
         <div>
-            <Button>Click me!</Button>
+            <Button success >Click me!</Button>
         </div>        
         <div>
             <Button>Buy now!</Button>
