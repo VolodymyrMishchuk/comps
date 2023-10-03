@@ -1,7 +1,7 @@
-import Button from './components/Button';
+import Button from '../components/Button';
 import { GoBell, GoCloud, GoDatabase } from 'react-icons/go';
 
-function App() {
+function ButtonPage() {
     return (
         <div>
             <div>
@@ -52,4 +52,4 @@ function App() {
     );
 }
 
-export default App;
+export default ButtonPage;
