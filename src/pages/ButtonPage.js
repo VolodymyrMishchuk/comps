@@ -1,20 +1,10 @@
 import Button from '../components/Button';
-import { GoBell, GoCloud, GoDatabase } from 'react-icons/go';
+import { GoBell, GoCloud, GoDatabase, GoBug } from 'react-icons/go';
 
 function ButtonPage() {
     return (
         <div>
-            <div>
-                <Button 
-                    success 
-                    rounded 
-                    outline
-                    className="mb-5"
-                >
-                    <GoBell />
-                    Click me!
-                </Button>
-            </div>        
+       
             <div>
                 <Button 
                     danger 
@@ -23,7 +13,17 @@ function ButtonPage() {
                     <GoCloud />
                     Buy now!
                 </Button>
-            </div>        
+            </div> 
+            <div>
+                <Button 
+                    success 
+                    rounded 
+                    outline
+                >
+                    <GoBell />
+                    Click me!
+                </Button>
+            </div>       
             <div>
                 <Button 
                     warning
@@ -31,15 +31,7 @@ function ButtonPage() {
                     <GoDatabase />
                     See Deal!
                 </Button>
-            </div>        
-            <div>
-                <Button 
-                    secondary 
-                    outline
-                >
-                    Hide Ads!
-                </Button>
-            </div>        
+            </div>
             <div>
                 <Button 
                     primary 
@@ -47,7 +39,16 @@ function ButtonPage() {
                 >
                     Something!
                 </Button>
-            </div>
+            </div>        
+            <div>
+                <Button 
+                    secondary 
+                    outline
+                >
+                    <GoBug />
+                    Hide Ads!
+                </Button>
+            </div>        
         </div>
     );
 }
